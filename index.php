@@ -4,9 +4,9 @@
 $uhrzeit = date('H');
 if ($uhrzeit < 12) {
     $gruss = " Guten Morgen.";
-} elseif ($uhrzeit >= 12 && $uhrzeit < 14) {
-    $gruss = " Guten Tag";
-} elseif ($uhrzeit >= 14 && $uhrzeit < 22) {
+} elseif ($uhrzeit >= 12 && $uhrzeit < 18) {
+    $gruss = " Guten Tag.";
+} elseif ($uhrzeit >= 18 && $uhrzeit < 22) {
     $gruss = " Guten Abend.";
 } else {
     $gruss = " Gute Nacht.";
